@@ -1,38 +1,79 @@
-.App {
-  text-align: center;
+body{
+    background-image: url(../public/imagenes/abstract-999662.jpg);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.footer{
+    background-image: linear-gradient(to top, #8e5d65, #b3374c);
+    color: white;
+    margin: 0%;
+    padding: 2rem;
+    width: 100%;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.redesSociiales{
+margin-top: 1rem;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.logoFooter{
+    text-align: left;
+    width: 2.5rem;
+    height: 2.5rem;
 }
-
-.App-link {
-  color: #61dafb;
+.header {
+    display: flex;
+    background-image: linear-gradient(to top, #8e5d65,#b3374c);
+    color: white;
+    padding-top: 10px;
+    margin: auto;
 }
+.contenedorLogo{
+    @media screen and (max-width: 768px ){ 
+        display: none;
+    }
+}
+.logo{
+    width: 80px;
+    margin-top: 1rem;
+}
+.ItemNavBar{
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+.navBar {
+    display: flex;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+    @media screen and (max-width: 768px ){} 
+}
+li{
+    display: inline;
+    margin: 0px 3px ;
+}
+a{
+    color: aliceblue;
+    text-decoration: none;
+}
+.puntosNavBar{  
+    display: flex;
+    align-items: center;
+    margin: 0px 120px;
+}
+.card{
+    width: 18rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    transition: all 0.25s;
+}
+.contenedorCard{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+.carrito{
+    width: 30px;
+}
+.titulo{
+    display: flex;
+    align-items: center;
 }
