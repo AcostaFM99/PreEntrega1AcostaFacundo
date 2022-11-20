@@ -5,8 +5,8 @@ const NavBar = () =>{
     return (
         
             <div className="row header container-fluid">
-                <div className="col-md-8">
-                    <div className="contenedorLogo">
+                <div className="col-md-9">
+                    <div className="contenedorLogo row ">
                         <div className="col-md-1 "> <img src="./../imagenes/posible1logo.jpg" className="logo" width="88" alt='Logo'/></div>
                         <div className="col-md-10  "><h1 className="header__logo"> Pintureria BROS </h1></div>
                     </div>
