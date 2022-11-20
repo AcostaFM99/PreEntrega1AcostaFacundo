@@ -1,13 +1,15 @@
 import React from "react";
 import Footer from "./Components/Footer";
-import Header from "./Components/Header";
 import Carrucel from "./Components/Carrucel";
 import Cards from "./Components/Cards";
+import NavBar from "./Components/NavBar";
+import ItemListContainer from "./Components/itemListContainer";
 
 const App = () => {
   return (
     <div> 
-    <Header/>
+    <NavBar/>
+    <ItemListContainer greeting={"Bienvenidos a Pinturerias Bro!!"}/>
     <Carrucel/>
     <Cards/>
     <Footer/>
